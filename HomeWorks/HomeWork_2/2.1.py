@@ -5,7 +5,7 @@
 # 5 -> 1 0 1 1 0
 # 2
 
-n = [int(i) for i in input("Ведите кол-во монеток: ").split()]
+n = [int(i) for i in input("Ведите значения монеток 1 или 0: ").split()]
 print(n)
 igl = 0
 cent = 0
