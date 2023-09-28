@@ -5,6 +5,7 @@ numbers = [random.choice([0, 1]) for _ in range(10)]  # Создаем спис�
 human = numbers.copy()
 roboT = [1 - num for num in numbers]
 
+
 print(f"{' '}{'Human':^15}{'RoboT':^10}")
 print('*' * 25)
 
