@@ -1,6 +1,6 @@
 import random
 
-numbers = [random.choice([0, 1]) for _ in range(10)]  # Создаем список случайных чисел от 0 до 1
+numbers = [random.choice([0, 1]) for i in range(10)]  # Создаем список случайных чисел от 0 до 1
 
 human = numbers.copy()
 roboT = [1 - num for num in numbers]
